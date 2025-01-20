@@ -763,7 +763,7 @@ strong {
 .carousel2 {
   display: flex;
   gap: 10px; /* Espaciado entre imágenes */
-  animation: scroll 10s linear infinite; /* Animación infinita de desplazamiento */
+  animation: scroll 8s linear infinite; /* Animación infinita de desplazamiento */
 }
 
 .carousel2 img {
