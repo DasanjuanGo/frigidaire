@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ser1315/public_html
+    - export DEPLOYPATH=/home4/ser1315/public_html
     - /bin/cp -R * $DEPLOYPATH
