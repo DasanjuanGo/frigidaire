@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .carousel-container {
+    width: 100%; /* 100% del ancho de la página */
+    height: 90px; /* Altura fija */
+    overflow: hidden; /* Oculta las imágenes que salen del área visible */
+    background-color: #f4f4f4; /* Color de fondo opcional */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 10px; /* Espaciado entre imágenes */
+    animation: scroll 15s linear infinite; /* Animación infinita */
+  }
+  
+  .carousel img {
+    width: 100px; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: sombra para las imágenes */
+  }
+  
+  /* Animación de desplazamiento continuo */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%); /* Desplaza solo la mitad del carrusel para que sea fluido */
+    }
+  }
+  
