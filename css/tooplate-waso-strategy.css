@@ -942,6 +942,13 @@ strong {
 }
 
 @media screen and (max-width: 480px) {
+  .carousel2 img {
+    width: 50%; /* Ancho de la imagen */
+    height: 50px; /* Altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+  }
+  
   h1 {
     font-size: 34px;
   }
