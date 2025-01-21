@@ -433,11 +433,11 @@ strong {
 
 .carousel-caption {
   z-index: 9;
-  top: 3%;
+  top: 1%;
   bottom: 0;
   left: 0;
   text-align: left;
-  width: 50%;
+  width: 70%;
   margin-right: 12px;
   margin-left: 12px;
 }
