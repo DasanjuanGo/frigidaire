@@ -750,7 +750,7 @@ strong {
 
 
 /*
-
+  carrusel de logos empresas
 */
 .carousel-conta {
   width: 100%; /* 100% del ancho de la página */
@@ -942,6 +942,13 @@ strong {
 }
 
 @media screen and (max-width: 480px) {
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    /* Distancia desde la parte inferior */
+    right: 5%;
+    
+  }
   .carousel2 img {
     width: 50%; /* Ancho de la imagen */
     height: 50px; /* Altura de la imagen */
@@ -1004,4 +1011,14 @@ strong {
     font-size: 20px;
   }
 
+}
+
+@media screen and (max-width: 380px) {
+
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    /* Distancia desde la parte inferior */
+    right: 20%;
+  }
 }
