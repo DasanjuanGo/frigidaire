@@ -721,7 +721,7 @@ strong {
   position: fixed;
   bottom: 30px;
   /* Distancia desde la parte inferior */
-  right: 40px;
+  right: 3%;
   /* Distancia desde la derecha */
   z-index: 1000;
   /* Asegúrate de que esté por encima de otros elementos */
